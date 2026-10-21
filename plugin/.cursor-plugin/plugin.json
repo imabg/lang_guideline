@@ -1,0 +1,15 @@
+{
+  "name": "modern-go-guidelines",
+  "displayName": "Modern Go Guidelines",
+  "version": "1.0.0",
+  "description": "Helps coding agents write modern, idiomatic Go matching the project's Go version.",
+  "author": {
+    "name": "Abhay Goswami",
+    "email": "abhaygoswami676@gmail.com"
+  },
+  "homepage": "https://github.com/imabg/lang_guideline",
+  "repository": "https://github.com/imabg/lang_guideline",
+  "license": "Apache-2.0",
+  "keywords": ["go", "golang", "go-best-practices", "guidelines", "modern-go"],
+  "skills": "./skills/"
+}

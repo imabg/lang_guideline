@@ -1,0 +1,11 @@
+{
+  "name": "modern-go-guidelines",
+  "description": "Helps Claude Code and coding agents write modern, idiomatic Go matching the project's Go version.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Abhay Goswami",
+    "email": "abhaygoswami676@gmail.com"
+  },
+  "keywords": ["go", "golang", "go-best-practices", "guidelines", "modern-go"],
+  "skills": "./skills/"
+}

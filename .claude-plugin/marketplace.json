@@ -1,0 +1,17 @@
+{
+  "name": "lang-guidelines-claude-marketplace",
+  "owner": {
+    "name": "Abhay Goswami",
+    "email": "abhaygoswami676@gmail.com"
+  },
+  "metadata": {
+    "description": "Marketplace for modern language coding agent guidelines and skills",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "modern-go-guidelines",
+      "source": "./plugin"
+    }
+  ]
+}
