@@ -1,9 +1,9 @@
 ---
-name: use-modern-go
+name: modern-go
 description: Use modern Go guidelines whenever writing, modifying, fixing, or refactoring Go code. Apply version-specific modern idioms to generated changes.
 ---
 
-# Modern Go Guidelines Skill (`use-modern-go`)
+# Modern Go Guidelines Skill (`modern-go`)
 
 Always write modern, idiomatic Go code. Follow these rules whenever creating, refactoring, or reviewing Go code.
 
@@ -56,3 +56,11 @@ Always write modern, idiomatic Go code. Follow these rules whenever creating, re
 ### Go 1.18+
 - **`any`**: Always use `any` instead of `interface{}`.
 - **Typed atomics**: Use `atomic.Int64`, `atomic.Bool`, `atomic.Pointer[T]` instead of pointer loads.
+
+---
+
+## 3. Incremental Modernization Actions
+For step-by-step multi-agent modernization workflows, refer to the action files in `actions/`:
+1. `actions/01-go-core-data-structures.action.md`: Phase 1 - Core Language, Data Structures & Collections
+2. `actions/02-go-concurrency-systems.action.md`: Phase 2 - Concurrency, Systems & Networking Architecture
+3. `actions/03-go-errors-testing-observability.action.md`: Phase 3 - Error Handling, Testing & Observability
